@@ -2,32 +2,32 @@
     {
         "id": "clothing",
         "title": "Clothing",
-        "images":"/public/categories_images/cloth.jpg"
+        "images":"/categories_images/cloth.jpg"
     },
     {
         "id": "makeup",
         "title": "Makeup",
-        "images":"/public/categories_images/makeup_items.jpg"
+        "images":"/categories_images/makeup_items.jpg"
     },
     {
         "id": "home-appliances",
         "title": "Home Appliances",
-        "images":"/public/categories_images/home_appliances.jpg"
+        "images":"/categories_images/home_appliances.jpg"
     },
     {
         "id": "footwear",
         "title": "Footwear",
-        "images":"/public/categories_images/footwear.jpg"
+        "images":"/categories_images/footwear.jpg"
     },
     {
         "id": "bags",
         "title": "Bags",
-        "images":"/public/categories_images/bags.jpg"
+        "images":"/categories_images/bags.jpg"
     },
     {
         "id": "watches",
         "title": "Watches",
-        "images":"/public/categories_images/watches.jpg"
+        "images":"/categories_images/watches.jpg"
     }
     
 ]

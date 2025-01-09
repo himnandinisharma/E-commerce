@@ -5,7 +5,7 @@
         "price": 109.95,
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "clothing",
-        "image": "/public/product_images/kurti.jpg",
+        "image": "/product_images/kurti.jpg",
         "rating": {
             "rate": 3.9,
             "count": 120
