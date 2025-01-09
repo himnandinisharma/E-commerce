@@ -1,8 +1,13 @@
 import React from 'react'
 import categories from '../data/categories.json'
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
-  console.log(categories);
+  
+  const navigate = useNavigate();
+  const handleCategoryClick = (category) => {
+    navigate("/shop", { state: category.id })
+  }
 
   return (
     <div>
@@ -12,8 +17,8 @@ function Home() {
         </div>
         <div className="flex gap-8 p-8 justify-between">
           {categories.map((category) => (
-            <div className="flex flex-col justify-center items-center gap-y-2 rounded-xl">
-              <img className='rounded-xl' src={category.images}  width="200px" height="130px" />
+            <div onClick={() => handleCategoryClick(category)} className="flex flex-col justify-center items-center gap-y-2 rounded-xl">
+              <img className='rounded-xl' src={category.images} width="200px" height="130px" />
               <h1 className='text-2xl'>{category.title}</h1>
             </div>
           ))}
